@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ladies Learning WordPress</title>
+    <title>LLC: WordPress for Beginners</title>
 
     <meta charset='utf-8'>
     <script src='assets/default.js'></script>
@@ -16,17 +16,22 @@
       <img src='assets/images/ladieslearningcode-125x125.gif'>
       <article class="home">
         <h1>
-          Ladies Learning 
+          WordPress for Beginners:
           <br>
-          WordPress
+          Create Your Own WordPress Theme
         </h1>
         <p>
           <em>Original Content by <a href="http://www.wesbos.com">Wes Bos</a></em>
           <br>
           <br>
-          <strong>Your Lead Instructors Today:</strong> 
+          <strong>Your Lead Instructor Today:</strong> 
           <br>
         </p>
+        <div>
+          <span class="name">Marli Bells</span>
+          <img src="marli.jpg" alt="Photo of Marli Bells" class="circular" />
+        </div>
+        <br style="clear:both;">
         <p>Open these slides in a modern browser and use your arrow keys to follow along</p>
       </article>
 
