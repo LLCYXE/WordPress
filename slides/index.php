@@ -110,7 +110,7 @@
           <p>Using a text editor makes things a lot easier on you and I recommend using one today.</p>
           <p>There are tons of text editors available - Sublime Text, text wrangler, NotePad++, Text Mate, vim...</p>
           <p>I recommend using <strong>Sublime Text</strong> which has an unlimited trial but you are welcome to try anything you like - your table's mentor may have a specific favorite too!</p>
-          <a href="http://www.sublimetext.com/3">http://www.sublimetext.com/3</a>
+          <a target="_blank" href="http://www.sublimetext.com/3">http://www.sublimetext.com/3</a>
           <p>Do not try and edit your theme from the WordPress back-end</p>
         </div>
       </article>
@@ -119,7 +119,7 @@
         <h3>Code + Database = <span class="red padbottom">&hearts;</span></h3>
          <div class="build">
           <img src="http://cl.ly/C1dr/Screen%20Shot%202011-11-21%20at%2010.07.51%20PM.png" alt="">
-          <p>The database holds our data and the code defines how and when the data is printed to the page. The two work together to <span class="red">output HTML</span>.</p>
+          <p>The database holds our data and the code defines how and when the data is printed to the page. The two work together to <span class="red">output HTML</span></p>
           <p><span class="red">/wp-admin</span> and <span class="red">/wp-includes</span> holds the engine of WordPress - we don't touch it.</p>
           <p><span class="red">/wp-content</span> holds our specific content like themes, plugins and image uploads.</p>
         </div>
@@ -365,7 +365,6 @@
 
       <article class="defs">
         <div class="build">
-
           <!-- <p><strong>/js</strong>-  </p> -->
           <p><strong>loop.php</strong> - A reuseable file to display posts (much more later!) </p>
           <p><strong>page.php</strong> -  Default template for displaying pages</p>
@@ -377,7 +376,6 @@
           <!-- <p><strong>style.css</strong>-  </p> -->
           <p><strong>tag.php</strong> - Displaying all posts within a certain tag </p>
           <p><strong>Not sure which?</strong> Edit the file, refresh the page, and see if you got the right one!” ie. don’t be afraid to start.</p>
-
         </div>
       </article>
 
@@ -665,7 +663,7 @@ div.parent div.child { ... }
           <p>There are hundreds of template tags</p>
           <p class="small"><a href="http://codex.wordpress.org/Template_Tags">http://codex.wordpress.org/Template_Tags</a></p>
           <img class="padTop" src="assets/images/template-tags.png" alt="">
-          <p>Lets take a look at some of the commonly used ones.</p>
+          <p>Let's take a look at some of the commonly used ones.</p>
         </div>
       </article>
 
@@ -878,19 +876,20 @@ div.parent div.child { ... }
 
       </article>
 
-      <article>         <p>Your Code should look something like
-this:</p>         <br>         <img src="http://wes.io/V8LA/custom-
-page-template" alt="">       </article>       <article>         <div
-class="build">           <p><strong>Step 3:</strong> We don't want a
-sidebar for this page, so go ahead and delete <span class="red"><?php
-output("<?php get_sidebar(); ?>"); ?></span>. Make sure to save your
-file after this change. </p>           <p><strong>Step 4:</strong> Go
-to the WordPress dashboard, and edit your contact page.</p>
-<p>You'll now see under "Page Attributes" we have a template
-dropdown.</p>           <p><img src="http://wes.io/MLnn/content"
-alt=""></p>           <p>Select Contact Page and click update then
-view. <img src="http://cl.ly/C2Lt/Screen%20Shot%202011-11-22%20at%2010
-.35.29%20PM.png" alt=""></p>         </div>       </article>
+      <article>
+        <p>Your Code should look something like this:</p>
+        <br>
+        <img src="http://wes.io/V8LA/custom-page-template" alt="">
+      </article>
+      <article>
+        <div class="build">
+          <p><strong>Step 3:</strong> We don't want a sidebar for this page, so go ahead and delete <span class="red"><?php output("<?php get_sidebar(); ?>"); ?></span>. Make sure to save your file after this change. </p>
+          <p><strong>Step 4:</strong> Go to the WordPress dashboard, and edit your contact page.</p>
+          <p>You'll now see under "Page Attributes" we have a template dropdown.</p>
+          <p><img src="http://wes.io/MLnn/content" alt=""></p>
+          <p>Select Contact Page and click update then view. <img src="http://cl.ly/C2Lt/Screen%20Shot%202011-11-22%20at%2010.35.29%20PM.png" alt=""></p>
+        </div>
+      </article>
 
       <article>
         <h3>Building a template for our home page</h3>
