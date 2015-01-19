@@ -71,17 +71,17 @@
       </article>
 
       <article id="vs" class="center">
-       <h1>WordPress.com VS WordPress.org</h1>
+       <h1 class="padBottom">WordPress.com VS WordPress.org</h1>
        <div class="build">
-        <p class="large">WordPress.com is Hosted for you - No servers or code required!</p>
+        <p>WordPress.com is Hosted for you. No servers or code required!</p>
         <p>.com Doesn't allow for a lot of customization. No plugins or custom themes.</p>
-         <p class="large-font">We will be using the self-hosted .org</p>
-         <p>Self-Hosted allows for 100% customization - Themes and plugins oh-my!</p>
+        <p class="large-font">We will be using the self-hosted .org</p>
+        <p>Self-Hosted allows for 100% customization. Themes, custom themes, and plugins!</p>
        </div>
       </article>
 
       <article>
-        <h3>Jargon and Buzz Words - Welcome to our world</h3>
+        <h3 class="padBottom">Jargon and Buzz Words - Welcome to our world</h3>
         <div class="build">
           <p><strong>localhost</strong> - / Local Server (MAMP or WAMP) - A small service that runs on your laptop which mimics the functionality of a large, paid server. We are able to work on our website without uploading it anywhere.</p>
           <p><strong>PHP tags</strong> - PHP is the programming language WordPress is written in. When we need to use PHP, we put it inside <span class="red"> <?php output('<?php and ?>'); ?></span> tags so our server will know to process it as PHP.</p>
@@ -90,7 +90,7 @@
           </div>
           </article><article>
           <div class="build">
-          <p><strong>Codex</strong> - The WordPress documentation. Very helpful when you require a reference or assistance with a certain part of WordPress. http://codex.wordpress.org/</p>
+          <p><strong>Codex</strong> - The WordPress documentation. Very helpful when you require a reference or assistance with a certain part of WordPress. <a target="_blank" href="http://codex.wordpress.org/">http://codex.wordpress.org/</a></p>
           <p><strong>Permalinks</strong> - Human readable URL. When turned on, WordPress changes the url structure from something like MySite.com/?p=54 to MySite.com/contact-me</p>
           <p><strong>Theme</strong> - The collection of files that we use to lay out and style our WordPress website. WordPress allows you to easily change and modify themes without losing any of your posts or pages.</p>
           <p><strong>Template</strong> - A specific file within our theme that lays out either an entire page or part of a page. For example, page.php is the template within our theme that lays out the structure for all of our pages</p>
@@ -105,12 +105,12 @@
 
       <article>
         <div class="build">
-          <p><strong>Text Editor:</strong> - A program that runs on your computer, used for editing code..</p>
+          <p><strong>Text Editor</strong> - A program that runs on your computer, used for editing code.</p>
           <p>All code is written in plain text, so you could just use notepad or textedit to edit your theme</p>
           <p>Using a text editor makes things a lot easier on you and I recommend using one today.</p>
           <p>There are tons of text editors available - Sublime Text, text wrangler, NotePad++, Text Mate, vim... </p>
           <p>I recommend using <strong>Sublime Text</strong> which has an unlimited trial but you are welcome to try anything you like - your table's mentor may have a specific favorite too!</p>
-          <a href="http://www.sublimetext.com/2">http://www.sublimetext.com/2</a>
+          <a target="_blank" href="http://www.sublimetext.com/2">http://www.sublimetext.com/2</a>
           <p>Do not try and edit your theme from the WordPress back-end</p>
         </div>
       </article>
@@ -119,9 +119,8 @@
         <h3>Code + Database = <span class="red padbottom">&hearts;</span></h3>
          <div class="build">
           <img src="http://cl.ly/C1dr/Screen%20Shot%202011-11-21%20at%2010.07.51%20PM.png" alt="">
-          <p>The database holds our data and the code defines how and when the data is printed to the page</p>
-          <p>The two work together to <span class="red">output HTML</span></p>
-          <p><span class="red">/wp-admin and /wp-includes</span> holds the engine of WordPress - we don't touch it.</p>
+          <p>The database holds our data and the code defines how and when the data is printed to the page. The two work together to <span class="red">output HTML</span></p>
+          <p><span class="red">/wp-admin</span> and <span class="red">/wp-includes</span> holds the engine of WordPress - we don't touch it.</p>
           <p><span class="red">/wp-content</span> holds our specific content like themes, plugins and image uploads.</p>
         </div>
       </article>
@@ -162,7 +161,7 @@
           <p>Create <strong>7 posts</strong>, fill them with some dummy content Make sure to add a few <strong>tags/categories</strong> to each.</p>
           <p>Create <strong>3 pages</strong> called Blog, Contact and Home</p>
           <p>The Boring parts are almost done, I promise! Have some fun any use some Lorem Ipsum:</p>
-          <p><a href="http://hipsteripsum.me/">hipsteripsum.me</a>,<a href="http://cupcakeipsum.com/">cupcakeipsum.com</a>,<a href="http://baconipsum.com/">baconipsum.com</a></p>
+          <p><a href="http://hipsteripsum.me/">hipsteripsum.me</a>, <a href="http://cupcakeipsum.com/">cupcakeipsum.com</a>, <a href="http://baconipsum.com/">baconipsum.com</a></p>
           <!-- Fill in content -->
       </article>
 
@@ -175,25 +174,25 @@
       </article>
 
       <article>
-        <p><strong>Remember Permalinks?</strong> Lets turn on pretty permalinks</p>
-        <p class="small">Settings->permalinks</p>
+        <p><strong>Remember Permalinks?</strong> Let's turn on pretty permalinks</p>
+        <p>Settings → permalinks</p>
         <p><img src="http://wes.io/MLtT/content" alt=""></p>
       </article>
 
 
       <article class="center" style="background:url(http://www.drodd.com/images10/clapping-gif12.gif); background-size:cover;">
-        <h3 style="color:white;">You're done settings up!</h3>
+        <h3 style="color:white;">You're done setting up!</h3>
       </article>
 
       <article>
         <h3 class="padBottom">WordPress Themes</h3>
         <div class="build">
           <p>Themes control how your site looks </p>
-          <p>Your Data (Posts, Page, Comments...) is stored in the database so you wont lose your data if you switch!</p>
+          <p>Your Data (Posts, Page, Comments...) is stored in the database so you wont lose your data if you switch themes!</p>
           <p>There is no limit to what a WordPress theme can look like</p>
           <p>There are thousands of themes available for free or for pay</p>
-          <p>Many great WP Developers got their start tweaking exisitng themes</p>
-          <p>So... Thats what we're going to do today!</p>
+          <p>Many great WP Developers get their start tweaking exisitng themes</p>
+          <p>So that's what we're going to do today!</p>
         </div>
       </article>
 
@@ -209,7 +208,7 @@
 
       <article>
         <h3>The Ladies Learning Code theme</h3>
-        <p>The default theme is a little confusing, lets install a simpler one we can build upon!</p>
+        <p>The default theme is a little confusing, let's install a simpler one we can build upon!</p>
         <p>All themes live in <code>/wp-content/themes</code></p>
         <p>Unzip <code>llctheme.zip</code> and drag+drop into your <code>/wp-content/themes</code> folder</p>
         <p><img src="http://cl.ly/C0CJ/Screen%20Shot%202011-11-21%20at%2011.02.09%20PM.png" alt=""></p>
@@ -233,7 +232,7 @@
         <pre>
 <?php output('<?php get_header(); ?>
 
-{ The Page\'s Content and the Loop live Here}
+{ The Page\'s Content and the Loop live Here }
 
 <?php get_sidebar(); ?>
 
@@ -251,10 +250,10 @@
       </article>
 
       <article>
-        <h3>Exercise #2</h3>
+        <h3 class="padBottom">Exercise #1</h3>
         <div class="build">
           <p>Let's get comfortable with the basic building blocks of our theme. We're going to edit <code>sidebar.php</code> and <code>footer.php</code></p>
-          <h3 class="padTop">Exercise #2: Task #1</h3>
+          <h3 class="padTop">Exercise #1: Task #1</h3>
           <p>Open <code>footer.php</code> add your name to the copyright. Save it and refresh your website.</p>
           <p>You now have your name at the bottom of your website. Easy, eh?</p>
           <p>Let's step it up a notch!</p>
@@ -309,11 +308,13 @@
       -->
 
       <article>
-        <h3 class="padBottom">Adding a picture of you to the sidebar!</h3>
+        <h3 class="padBottom">Exercise #1: Task #2</h3>
+        <p class="large-font padBottom">Adding a picture of you to the sidebar!</p>
         <div class="build">
           <p>Open <code>sidebar.php</code> and look for these comments:</p>
           <img src="http://cl.ly/C04f/Screen%20Shot%202011-11-22%20at%2012.21.27%20AM.png" alt="">
-          <p>In our theme folder, we have an image called <code>portrait.png</code> in our <code>i</code> folder. Let's use that one to embed into the sidebar. If you wish you use your own image, simply put your image in the <code>i</code> folder.</p>
+          <p>In our theme folder, we have an image called <code>portrait.png</code> in our <code>i</code> folder. Let's use that one to embed into the sidebar.</p>
+          <p>If you wish you use your own image, simply put your image in the <code>i</code> folder.</p>
         </div>
       </article>
 
@@ -324,7 +325,8 @@
           
           outputs:  
 
-          <pre><?php output('<img src="http://localhost/wordpress/wp-content/themes/ladies-learning-code/i/portrait.png" alt="">');?></pre>
+          <pre><?php output('<img src="http://localhost/wordpress/wp-content/themes
+          /ladies-learning-code/i/portrait.png" alt="">');?></pre>
 
         </div>
 
@@ -341,34 +343,47 @@
         <h3>What are all these other files?</h3>
         <p>Different Pages can be displayed with different layouts.</p>
         <p>Example: 2010 Archives can have a different layout than a category view.</p>
-         <p>Let's take a look at the important template files ones in our theme... <p>
-      </article>
-      <article>
-        <!-- <p><strong>404.php</strong> - Displays when no page is found</p> -->
-        <p><strong>archive.php</strong> Shows Archives of old posts</p>
-        <!-- <p><strong>attachment.php </strong>- Not really used, for displaying indivdual pictures</p> -->
-        <p><strong>author.php</strong> - Displaying all posts by a certain author</p>
-        <p><strong>category.php</strong> -  Displaying all posts within a certain Category</p>
-        <!-- <p><strong>comments.php </strong>- The layout of comments under your posts</p> -->
-        <p><strong>footer.php</strong> - The footer that is appended at the bottom of every page </p>
-        <p><strong>functions.php</strong>  -Commonly used for enabling theme features such a custom navigations and post thumbnail sizes
+        <p>Let's take a look at the important template files ones in our theme... <p>
       </article>
 
       <article class="defs">
-        <p><strong>header.php</strong>- The header that is appended at the bottom of every page </p>
-        <!-- <p><strong>humans.txt</strong>-  </p> -->
-        <!-- <p><strong>/i</strong>-  </p> -->
-        <p><strong>index.php</strong>- The front page of your blog, displays the latest <em>n</em> posts  </p>
-        <!-- <p><strong>/js</strong>-  </p> -->
-        <p><strong>loop.php</strong> - A reuseable file to display posts (much more later!) </p>
-        <p><strong>page.php</strong>-  Default template for displaying pages</p>
-        <!-- <p><strong>screenshot.png</strong>-  </p> -->
-        <p><strong>search.php</strong>- Template for displaying search results  </p>
-        <!-- <p><strong>searchform.php</strong>-  </p> -->
-        <p><strong>sidebar.php</strong>- Sidebar that is appended to every page </p>
-        <p><strong>single.php</strong>- Default template used for displaying a single post </p>
-        <!-- <p><strong>style.css</strong>-  </p> -->
-        <p><strong>tag.php</strong> - Displaying all posts within a certain tag </p>
+        <div class="build">
+          <!-- <p><strong>404.php</strong> - Displays when no page is found</p> -->
+          <p><strong>archive.php</strong> - Shows Archives of old posts</p>
+          <!-- <p><strong>attachment.php </strong>- Not really used, for displaying indivdual pictures</p> -->
+          <!-- <p><strong>author.php</strong> - Displaying all posts by a certain author</p> -->
+          <p><strong>category.php</strong> -  Displaying all posts within a certain Category</p>
+          <!-- <p><strong>comments.php </strong>- The layout of comments under your posts</p> -->
+          <p><strong>footer.php</strong> - The footer that is appended at the bottom of every page </p>
+          <p><strong>header.php</strong> - The header that is appended at the bottom of every page </p>
+          <!-- <p><strong>humans.txt</strong>-  </p> -->
+          <!-- <p><strong>/i</strong>-  </p> -->
+          <p><strong>index.php</strong> - The front page of your blog, displays the latest <em>n</em> posts  </p>
+        </div>
+      </article>
+
+      <article class="defs">
+        <div class="build">
+          <!-- <p><strong>/js</strong>-  </p> -->
+          <p><strong>loop.php</strong> - A reuseable file to display posts (much more later!) </p>
+          <p><strong>page.php</strong> -  Default template for displaying pages</p>
+          <!-- <p><strong>screenshot.png</strong>-  </p> -->
+          <p><strong>search.php</strong> - Template for displaying search results  </p>
+          <!-- <p><strong>searchform.php</strong>-  </p> -->
+          <p><strong>sidebar.php</strong> - Sidebar that is appended to every page </p>
+          <p><strong>single.php</strong> - Default template used for displaying a single post </p>
+          <!-- <p><strong>style.css</strong>-  </p> -->
+          <p><strong>tag.php</strong> - Displaying all posts within a certain tag </p>
+        </div>
+      </article>
+
+      <article class="defs">
+        <div>
+          <h3>Another important file</h3>
+          <p><strong>functions.php</strong> - Commonly used for enabling theme features such a custom navigations and post thumbnail sizes.</p>
+          <p>Usually contains mostly php code and no HTML mark up.</p>
+          <p>This file isn't a template file, but it is very important.</p>
+        </div>
       </article>
 
 <!--       <article>
@@ -381,17 +396,17 @@
         <h3>When someone visits your website, wordpress figured out what sort of page they are looking for based on this Hierarchy </h3>
         <p>Print this out and tape it to your wall. Very important in understanding theme development.</p>
         <br><br>
-        <strong><p>Lets Step through mysite.com/tag/dogs</p></strong>
-        <p>What Page? &rarr; archive page &rarr; What kind? A tag &rarr; Do we have tag-dogs.php? nope. &rarr; Do we have tag-3.php? Nope &rarr; Do we have tag.php? Yep! Lets use that!</p>
+        <strong><p>Let's Step through mysite.com/tag/dogs</p></strong>
+        <p>What Page? &rarr; archive page &rarr; What kind? A tag &rarr; Do we have tag-dogs.php? nope. &rarr; Do we have tag-3.php? Nope &rarr; Do we have tag.php? Yep! Let's use that!</p>
         <p>If wordpress doesnt find a template file, it always falls back to index.php to try and display it</p>
 
       </article> -->
 
 
       <article>
-        <h3>CSS 101</h3>
+        <h3 class="padBottom">CSS 101</h3>
         <div class="build">
-          <p>Before we can start customizing our WordPress theme, it will be helpful to learn the basics of CSS. We won't be diving too deep into CSS as its a huge topic on its own, but lets take a quick look at it.</p>
+          <p>Before we can start customizing our WordPress theme, it will be helpful to learn the basics of CSS. We won't be diving too deep into CSS as its a huge topic on its own, but let's take a quick look at it.</p>
           <p>CSS stands for Cascading Style Sheets, they allow you easily add style to the elements on your website. Examples of elements are heading tags, images, divs (content and sidebars), links and lists.</p>
           
           <p>For the purposes of this class, it's enough to open the <code>style.css</code> file in your theme and try change colours and fonts from there.</p>
@@ -411,8 +426,9 @@ div.post { ... }
 <?php output('<span class="date"> ... </span>'); ?> 
 span.date { ... }
 
-<?php output('<span class="category"></span> <div class="meta"></div>'); ?>  
-span.category, div.meta { … } 
+<?php output('<span class="category"></span>
+<div class="meta"></div>'); ?>  
+span.category, div.meta { ... } 
 
 <?php output('<div class="parent"><div class="child"></div></div>'); ?> 
 div.parent div.child { ... }
@@ -427,9 +443,9 @@ div.parent div.child { ... }
   <p>There are hundreds of CSS Properties, here a few popular ones for a div with the class of wrapper</p>
 <pre>
 .wrapper {
-  background : black;
-  border:2px solid green;
-  font-family:Georgia, sans-serif; 
+  background: black;
+  border: 2px solid green;
+  font-family: Georgia, sans-serif; 
 } 
 </pre>
 <p>Let's go through a bunch of common CSS...</p>
@@ -449,14 +465,14 @@ div.parent div.child { ... }
 <pre>.post {
   background : url(relative/pathp/to/the/background.png); /* Add an image to the background */
   border: 3px solid yellow; /* add a yellow border */
-  padding:20px; /* Increase padding to 20px */
+  padding: 20px; /* Increase padding to 20px */
 }</pre>
 
 </article><article>
 <pre>.post h2 a { /* finds .post -> Heading 2 -> links */
-  font-size:40px; 
-  font-family: georgia, sans-serif; /* change the font */
-  border-bottom:3px solid goldenRod; /* Changes the bottom border only to goldenRod colour*/
+  font-size: 40px; 
+  font-family: Georgia, sans-serif; /* change the font */
+  border-bottom: 3px solid goldenRod; /* Changes the bottom border only to goldenRod colour*/
 }</pre>
 
 
@@ -466,17 +482,17 @@ div.parent div.child { ... }
 
 </article><article>
 <pre>list-style-type: square; /* changes from circle bullets to squares*/
-  font-style:italic;
+  font-style: italic;
 }</pre>
 
 <pre>.more {
   float: left/right/none; /* floats an element to the left or right of its relative parent */
   text-align: center/left/right/inherit;
   margin: 10px 20px 15px 25px; /* Top Right Bottom Left margin values*/
-  font-weight:bold;
-  width:100%;
-  height:500px;
-  overflow:scroll; /* anything over 500px high will have scrollbars */
+  font-weight: bold;
+  width: 100%;
+  height: 500px;
+  overflow: scroll; /* anything over 500px high will have scrollbars */
 }</pre>
   
 </article>
@@ -487,7 +503,7 @@ div.parent div.child { ... }
 
 
       <article>
-        <h3>Exercise #3: Theme Customization!</h3>
+        <h3>Exercise #2: Theme Customization!</h3>
         <p>Now that we have a good feel for our theme layout, let's customize it a little more</p>
         <p>1. Change the background colour for our site</p>
         <p>2. Add a pattern to the background</p>
@@ -498,7 +514,7 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <h3>1. Change the background colour</h3>
+        <h3 class="padBottom">1. Change the background colour</h3>
         <div class="build">
           <p>Open your style.css file</p>
           <p>Locate the line that sets the body background colour</p>
@@ -519,26 +535,26 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <h3>2. Add a background pattern</h3>
+        <h3 class="padBottom">2. Add a background pattern</h3>
         <p>Find your <code>body</code> selector and add the following code:</p>
         <pre><?php output("background: url(i/bg1.png);"); ?></pre>
-        <p>This will pull the files from your <code>i</code> folder within your theme. Take a look at the available 4 images or download your own from <a href="http://subtlepatterns.com/">subtlepatterns.com</a>.</p>
+        <p>This will pull the files from your <code>i</code> folder within your theme. Take a look at the available 4 images or download your own from <a target="_blank" href="http://subtlepatterns.com/">subtlepatterns.com</a>.</p>
       </article>
 
       <article>
-        <h3>3. Change the link colour from red to something else</h3>
+        <h3 class="padBottom">3. Change the link colour from red to something else</h3>
         <p>To select links with CSS, we use the <code>a { ... }</code> selector. Find this in your code and change the link colour to something else</p>
         <img src="assets/images/link-colour.png" alt="">
       </article>
 
       <article>
-        <h3>4. Add a background colour to our nav links when you hover them</h3>
+        <h3 class="padBottom">4. Add a background colour to our nav links when you hover them</h3>
         <p>Our navigation is simply just a list of links that have been styled. We can change the look of these links with the navigation link selector. We can also change the colour or background colour on hover. Let's try that!</p>
         <img src="assets/images/nav-hover.png" alt="">
       </article>
 
       <article>
-        <h3>5. Center your website title</h3>
+        <h3 class="padBottom">5. Center your website title</h3>
         <div class="build">
           <p>Your website title is aligned to the left by default. Let's write some CSS to center this.</p>
           <p>In <code>style.css</code> look for the <strong>Hero Styling</strong> section:</p>
@@ -552,7 +568,7 @@ div.parent div.child { ... }
 
 
 <!--       <article>
-        <h3>Lets try it!</h3>
+        <h3>Let's try it!</h3>
         <p>Open up a few files template files and type <pre>"Hello, I'm editing {insert the name of the file here}"</pre> at the top. Save those files and them surf around your website.</p>
         <p>Can you find where you made the edits?</p>
 
@@ -567,7 +583,7 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <h3>What is the loop?</h3>
+        <h3 class="padBottom">What is the loop?</h3>
         <div class="build">
           <p>The loop is the lifeblood of a WordPress Theme, is it use to iterate over and display each of the posts that are available on a given page.</p>
           <h3 class="padTop">The Loop in plain english</h3>
@@ -595,12 +611,12 @@ div.parent div.child { ... }
   end if
 </pre>
       <h3 class="padTop">Confused?</h3>
-      <p>Lets step through how WordPress works if someone visits your blog home page and when someone visit your blog page.</p>
+      <p>Let's step through how WordPress works if someone visits your blog home page and when someone visit your blog page.</p>
 
       </article>
 
       <article>
-        <h3>The Loop Steps</h3>
+        <h3 class="padBottom">The Loop Steps</h3>
         <div class="build">
           <p>1. The blog page is requested by the user. Wordpress asks the database for all content for that page.</p>
           <p>2. The database returns 5 of the latest blog posts</p>
@@ -621,14 +637,13 @@ div.parent div.child { ... }
 <?php endwhile; ?>
 "); ?>
 </pre>
-      <h3 class="">Still Confused? Dont Worry!</h3>
+      <h3 class="">Still Confused? Don't Worry!</h3>
       <p>Our wordpress theme comes with the loop.php which handles most of this for you.</p>
       <p>You just need to be aware of how the loop works and what it looks like so you can edit it!</p>
       </article>
 
       <article>
-        <h3>Template Tags</h3>
-        
+        <h3 class="padBottom">Template Tags</h3>
         <div class="build">
         <p>Wondering how to actually get your content onto the page while you're inside the loop?</p>
           <p>Template tags are short little PHP functions that will output content from your site.</p>
@@ -640,12 +655,12 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <h3>Template Tag Examples</h3>
+        <h3 class="padBottom">Template Tag Examples</h3>
         <div class="build">
           <p>There are hundreds of template tags</p>
-          <p class="small"><a href="http://codex.wordpress.org/Template_Tags">http://codex.wordpress.org/Template_Tags</a></p>
-          <img src="http://cl.ly/C28x/Screen%20Shot%202011-11-22%20at%206.24.33%20PM.png" alt="">
-          <p>Lets take a look at some of the commonly used ones.</p>
+          <p class="small"><a target="_blank" href="http://codex.wordpress.org/Template_Tags">http://codex.wordpress.org/Template_Tags</a></p>
+          <img class="padTop" src="http://cl.ly/C28x/Screen%20Shot%202011-11-22%20at%206.24.33%20PM.png" alt="">
+          <p>Let's take a look at some of the commonly used ones.</p>
         </div>
       </article>
 
@@ -665,13 +680,13 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <h3>Exercise #4: Working with single.php and the loop</h3>
+        <h3>Exercise #3: Working with single.php and the loop</h3>
         <p>1. Open single.php in your editor</p>
         <p>Type <span class="red">Hello, I'm editing single.php!</span> on the second line.</p>
         <img src="assets/images/editing-single.png" alt="">
         <p>Save the file and go to a single post on your website</p>
         <p>Do you see where it says <span class="red">Hello, I'm editing single.php!</span> </p>
-        <p>We dont see this on any other page because single.php only controls single blog posts.</p>
+        <p>We don't see this on any other page because single.php only controls single blog posts.</p>
       </article>
 
       <article>
@@ -766,7 +781,7 @@ div.parent div.child { ... }
 
       <?php /* No more social 
       <article>
-        <h3>3. Lets get social!</h3>
+        <h3>3. Let's get social!</h3>
         <p>We're going to use the Facebook and Twitter API to embed the like/tweet buttons into our page</p>
         <p>Since each page is dynamic, we need to supply the like/tweet button with a link to whatever post we are on</p>
         <p>We're going to use the template tag <br><span class="red"><?php output("<?php the_permalink(); ?>"); ?></span> to generate this.</p>
@@ -795,7 +810,7 @@ div.parent div.child { ... }
 <p>And delete the line that looks like this:</p>
 <pre><?php output('<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>') ?></pre>
 <!--         <p>Save your page and refresh a post page. See your new tweet button!</p>
-        <p>Now lets do Facebook...</p>
+        <p>Now let's do Facebook...</p>
  -->      </article>
 
    <article>
@@ -834,7 +849,7 @@ div.parent div.child { ... }
 
 
       <article>
-        <h3>Custom Page Templates</h3>
+        <h3 class="padBottom">Custom Page Templates</h3>
         <div class="build">
           <p>Sometimes we don't want the same old structure for every single page</p>
           <p>What if we want one page to have a totally different structure? No sidebar? Three Columns? Full page map?!</p>
@@ -845,12 +860,12 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <h3>Exercise #5: Creating a Custom Page template</h3>
+        <h3 class="padBottom">Exercise #4: Creating a Custom Page template</h3>
         <div class="build">
           <p>We're going to create two custom page templates</p>
           <p>The first one will be a simple page without a sidebar for our pages that don't require a sidebar, like our contact page!.</p>
           <p>The second will be our custom landing page for our home page.</p>
-          <p>Lets get started!</p>
+          <p>Let's get started!</p>
           <p><strong>Step 1:</strong> Duplicate our <span class="red">page.php</span> file and rename it <span class="red">page-nosidebar.php</span></p>
           <p><strong>Step 2:</strong> at the top of <span class="red">page-nosidebar.php</span> let name our template with:</p>
           <pre><?php output("<?php /* Template Name: No Sidebar Template */ ?>"); ?></pre>
@@ -898,7 +913,7 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <h3>Exercise #6: Widgets!</h3>
+        <h3>Exercise #5: Widgets!</h3>
         <p>Widgets are modular items that can be added to your sidebar. You can see there are some default ones already in Dashboard → Appearance → Widgets</p>
 
         <p>How do we add one?</p>
@@ -914,7 +929,7 @@ div.parent div.child { ... }
 
       <article>
         <p>When done, click <span class="red">'Create Widget'</span> and copy the code provided.</p>
-        <p>Now lets go ahead and add it to our theme...</p>
+        <p>Now let's go ahead and add it to our theme...</p>
       </article>
 
       <article class="cols">
@@ -931,7 +946,7 @@ div.parent div.child { ... }
       </article>
 
       <article class="center">
-        <h3>Save it and you now have your twitter feeding into your sidebar!</h3>
+        <h3 class="padBottom">Save it and you now have your twitter feeding into your sidebar!</h3>
         <img src="http://wes.io/V7tG/in-the-sidebar" alt="">
       </article>
 
@@ -953,8 +968,8 @@ div.parent div.child { ... }
         <p><img src="http://f.cl.ly/items/2r0T472k0I2g3q1H1W08/Screen%20Shot%202011-11-23%20at%2012.20.30%20AM.png" alt=""></p>
         <p>And Activate the ones you need</p>
         <p><img src="http://cl.ly/C2Sg/Screen%20Shot%202011-11-23%20at%2012.22.56%20AM.png" alt=""></p>
-        <p>Akismit is 100% required to block spammers, you must sign up for a Free account</p>
-        <p class="small"><a href="https://akismet.com/signup/#free">https://akismet.com/signup/#free</a></p>
+        <p>Akismet blocks comment spammers. To use it you must sign up for a Free account.</p>
+        <p><a target="_blank" href="https://akismet.com/signup/#free">https://akismet.com/signup/#free</a></p>
       </article>
 
       <article>
@@ -967,11 +982,11 @@ div.parent div.child { ... }
           <p>Quick Cache</p>          
           <p>Advanced custom fields</p>
           <p>Custom Post Type UI</p>
-          <p>Anyone have a favourite? </p>
+          <p class="large-font">Anyone have a favourite? </p>
       </article>
 
       <article>
-        <h3>Let's try add a social networking plugin!</h3>
+        <h3 class="padBottom">Let's try add a social networking plugin!</h3>
         <div class="build">
           <p>Go to plugins &rarr; Add New and search for "addthis"</p>
           <img src="http://wes.io/MWZP/content">
@@ -991,7 +1006,7 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <h3>Exercise #7: The Final Exercise!</h3>
+        <h3>Exercise #6: The Final Exercise!</h3>
         <p>This is your time to shine and put everything you have learned today to work.</p>
       </article>
 
@@ -1004,7 +1019,7 @@ div.parent div.child { ... }
       </article>
       <article>
         <div class="build">
-          <p><strong>Step 1:</strong> From the dashbaord, edit your "Home" page. Write a few lines about yourself and upload a photo.</p>
+          <p><strong>Step 1:</strong> From the dashboard, edit your "Home" page. Write a few lines about yourself and upload a photo.</p>
           <p><strong>Step 2:</strong> Remember our <span class="red">page-home.php</span>? Open it up again and delete "Coming Soon..."</p>
           <p><strong>Step 3:</strong> We're now going to write our own loop so we can get the page's content.</p>
           <pre>
@@ -1022,7 +1037,7 @@ div.parent div.child { ... }
       <article>
          <div class="build">
            <p><strong>Step 4:</strong> Inside the loop, we use our template tag <span class="red"><?php output('<?php the_content(); ?>'); ?></span> to fetch the content from our home page.</p>
-           <p class="small">Our loop now looks like this:</p>
+           <p>Our loop now looks like this:</p>
           <pre>
 <?php output('<div class="welcome">
   <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
@@ -1038,7 +1053,7 @@ div.parent div.child { ... }
 
       <article>
         <div class="build">
-          <p>Now that we have our Home content pulling in, lets work on our three columns.</p>
+          <p>Now that we have our Home content pulling in, let's work on our three columns.</p>
           <p><strong>Step 5: </strong>Right underneath <span class="red"><?php output('<?php endwhile; ?> </div>');?></span>, create an empty div with the class of homeColumn.</p>
           <pre>
 <?php output('<div class="homeColumn"></div>'); ?></pre>      
@@ -1074,7 +1089,7 @@ div.parent div.child { ... }
       </article>
 
       <article>
-        <p><strong>Step 8:</strong>Fill our columns with content!</p>
+        <p><strong>Step 8:</strong> Fill our columns with content!</p>
         <p>This part is up to you. You can fill it with any WordPress code, text, image or external embed:</p>
         <ul>
           <li>
@@ -1107,7 +1122,7 @@ div.parent div.child { ... }
       </article>
       <article>
       
-      <p><strong>Step 9:</strong> You're done! I've provided you with some minimal style in your <span class="red">style.css</span> file in the section marked "CUSTOM HOME PAGE STYLE".</p>
+      <p><strong>Step 9:</strong> You're done! Some minimal style is provided in your <span class="red">style.css</span> file in the section marked "CUSTOM HOME PAGE STYLE".</p>
 
       <p>Spend some time working on your site to make it your own. Chat with your tables and mentors to see how you can customize your theme to be totally yours!</p>
 
@@ -1127,12 +1142,12 @@ div.parent div.child { ... }
         <h3>Making WordPress Live</h3>
         <p>Migrating WordPress, or hosting it so everyone can see it, requires a few steps to make it live.</p>
         <p>First, you need host. There are tons of great, affordable ones. I recommend using <a href="http://bluehost.com">BlueHost.com</a></p>
-        <p>Second, you will need to follow the migration guide. I've put together a video on how to do this: <a href="https://www.youtube.com/watch?v=gk6_lW9INos" target=_blank>youtube.com/watch?v=gk6_lW9INos</a></p>
+        <p>Second, you will need to follow the migration guide. Here is a video on how to do this: <a href="https://www.youtube.com/watch?v=gk6_lW9INos" target=_blank>youtube.com/watch?v=gk6_lW9INos</a></p>
       </article>
 
       <article>
         <h3>Getting Help</h3>
-        <p>http://wordpress.stackexchange.com/</p>
+        <p><a target="_blank" href="http://wordpress.stackexchange.com/">http://wordpress.stackexchange.com/</a></p>
         <p>#WordPress on freenode</p>
         <p>WordPress forums</p>
         <p>The codex is the most valuable thing in the world.</p>
