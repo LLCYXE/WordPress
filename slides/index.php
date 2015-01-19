@@ -74,9 +74,9 @@
        <h1 class="padBottom">WordPress.com VS WordPress.org</h1>
        <div class="build">
         <p>WordPress.com is Hosted for you. No servers or code required!</p>
-        <p>.com Doesn't allow for a lot of customization. No plugins or custom themes.</p>
+        <p>.com doesn't allow for a lot of customization. No plugins or custom themes.</p>
         <p class="large-font">We will be using the self-hosted .org</p>
-        <p>Self-Hosted allows for 100% customization. Themes, custom themes, and plugins!</p>
+        <p>Self-Hosted allows for 100% customization. We can use themes, custom themes, and plugins!</p>
        </div>
       </article>
 
@@ -108,7 +108,7 @@
           <p><strong>Text Editor</strong> - A program that runs on your computer, used for editing code.</p>
           <p>All code is written in plain text, so you could just use notepad or textedit to edit your theme</p>
           <p>Using a text editor makes things a lot easier on you and I recommend using one today.</p>
-          <p>There are tons of text editors available - Sublime Text, text wrangler, NotePad++, Text Mate, vim... </p>
+          <p>There are tons of text editors available - Sublime Text, text wrangler, NotePad++, Text Mate, vim...</p>
           <p>I recommend using <strong>Sublime Text</strong> which has an unlimited trial but you are welcome to try anything you like - your table's mentor may have a specific favorite too!</p>
           <a href="http://www.sublimetext.com/3">http://www.sublimetext.com/3</a>
           <p>Do not try and edit your theme from the WordPress back-end</p>
@@ -119,9 +119,8 @@
         <h3>Code + Database = <span class="red padbottom">&hearts;</span></h3>
          <div class="build">
           <img src="http://cl.ly/C1dr/Screen%20Shot%202011-11-21%20at%2010.07.51%20PM.png" alt="">
-          <p>The database holds our data and the code defines how and when the data is printed to the page</p>
-          <p>The two work together to <span class="red">output HTML</span></p>
-          <p><span class="red">/wp-admin and /wp-includes</span> holds the engine of WordPress - we don't touch it.</p>
+          <p>The database holds our data and the code defines how and when the data is printed to the page. The two work together to <span class="red">output HTML</span>.</p>
+          <p><span class="red">/wp-admin</span> and <span class="red">/wp-includes</span> holds the engine of WordPress - we don't touch it.</p>
           <p><span class="red">/wp-content</span> holds our specific content like themes, plugins and image uploads.</p>
         </div>
       </article>
@@ -137,7 +136,7 @@
           <p class="small">TIP: Make sure you only have one folder called wordpress. You shouldn't have a folder called wordpress inside of one called wordpress!</p>
           <p class="small">If you need help finding the folder: <strong>Windows:</strong> Click XAMP icon in tray &rarr; <span class="red">www directory</span><strong> Mac: </strong>click MAMP icon &rarr; Preferences &rarr; Apache Tab </p>
           <p><strong>Step 3</strong>: Open up PHPmyadmin and create a DB called <span class="red">llc</span></p>
-          <p class="small"><strong>Windows:</strong> Go to <a href="http://localhost" target=_blank>http://localhost</a> <strong>Mac: </strong>Go to <a href="http://localhost:8888/MAMP/" target=_blank>http://localhost:8888/MAMP/</a> <strong>Both:</strong> click PHPMyAdmin tab</p>
+          <p class="small"><strong>Windows:</strong> Go to <a href="http://localhost" target="_blank">http://localhost</a> <strong>Mac: </strong>Go to <a href="http://localhost:8888/MAMP/" target="_blank">http://localhost:8888/MAMP/</a> <strong>Both:</strong> click PHPMyAdmin tab</p>
         </div>
       </article>
 
@@ -145,10 +144,10 @@
           <div class="build">
             <p><strong>Step 4</strong>: Rename <code>wp-config-sample.php</code> to <code>wp-config.php</code> and open it</p>
             <p><strong>Step 5</strong>: Open in your text editor</p>
-            <p><strong>Step 6</strong>: Set the below.</p>
-            <img src="http://cl.ly/C1Tn/Screen%20Shot%202011-11-21%20at%2010.26.16%20PM.png" alt="">
+            <p><strong>Step 6</strong>: Change your config file to match this:</p>
+            <img src="assets/images/config-settings.png" alt="Config settings">
             <p class="small"> <span class="red">Windows Users: Leave password blank.</span></p>
-            <p><strong>Step 6</strong>: Surf to <a href="http://localhost/wordpress" target=_blank>http://localhost/wordpress</a> or <a href="http://localhost:8888/wordpress" target=_blank>http://localhost:8888/wordpress</a> in Chrome (or your favorite browser like Firefox or IE10) and install!</p>
+            <p><strong>Step 6</strong>: Surf to <a href="http://localhost/wordpress" target="_blank">http://localhost/wordpress</a> or <a href="http://localhost:8888/wordpress" target="_blank">http://localhost:8888/wordpress</a> in Chrome (or your favorite browser like Firefox or IE10) and install!</p>
           </div>
       </article>
 
@@ -535,7 +534,7 @@ div.parent div.child { ... }
           <span class="block" style="background:yellowGreen;">yellowGreen</span>
           </p>
           
-          <p>Visit <a href="http://flatuicolors.com/" target=_blank>flatuicolors.com</a> or <a href="http://colours.neilorangepeel.com/" target="_blank">colours.neilorangepeel.com</a> for some inspiration!</p>
+          <p>Visit <a href="http://flatuicolors.com/" target="_blank">flatuicolors.com</a> or <a href="http://colours.neilorangepeel.com/" target="_blank">colours.neilorangepeel.com</a> for some inspiration!</p>
 
         </div>
       </article>
@@ -1128,11 +1127,11 @@ view. <img src="http://cl.ly/C2Lt/Screen%20Shot%202011-11-22%20at%2010
 
       <article>
         <li>Twitter or <a href="https://developers.facebook.com/docs/plugins/like-box-for-pages" taret="_blank">facebook</a> Widget</li>
-        <li><a href="http://business.pinterest.com/widget-builder/" target=_blank>Pinterest</a> Board</li>
+        <li><a href="http://business.pinterest.com/widget-builder/" target="_blank">Pinterest</a> Board</li>
         <li>Youtube or vimeo embed</li>
         <li>Soundcloud playlist</li>
         <li>Buy now button for your product</li>
-        <li><a href="http://snapwidget.com/" target=_blank>Instagram Widget</a></li>
+        <li><a href="http://snapwidget.com/" target="_blank">Instagram Widget</a></li>
       </article>
       <article>
       
@@ -1156,7 +1155,7 @@ view. <img src="http://cl.ly/C2Lt/Screen%20Shot%202011-11-22%20at%2010
         <h3>Making WordPress Live</h3>
         <p>Migrating WordPress, or hosting it so everyone can see it, requires a few steps to make it live.</p>
         <p>First, you need host. There are tons of great, affordable ones. I recommend using <a href="http://wpengine.com/">WPEngine</a>.</p>
-        <p>Second, you will need to follow the migration guide. Here's a video on how to do this: <a href="https://www.youtube.com/watch?v=gk6_lW9INos" target=_blank>youtube.com/watch?v=gk6_lW9INos</a></p>
+        <p>Second, you will need to follow the migration guide. Here's a video on how to do this: <a href="https://www.youtube.com/watch?v=gk6_lW9INos" target="_blank">youtube.com/watch?v=gk6_lW9INos</a></p>
       </article>
 
       <article>
