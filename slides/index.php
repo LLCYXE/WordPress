@@ -6,6 +6,8 @@
     <meta charset='utf-8'>
     <script src='assets/default.js'></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
   </head>
   
   <?php function output($code){ echo htmlentities($code); }; ?>
