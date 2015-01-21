@@ -38,8 +38,9 @@
       </article>
 
       <article>
-        <h3>These Slides are available at <a href="http://wesbos.com/llc/slides">http://wesbos.com/llc/slides</a></h3>  
-        <p>They will always be up and always be updated! No real need to save them locally.</p>
+        <h3>Today's Slides</h3>
+        <p>They are available at <a href="http://marlibells.com/llc/wordpress-slides">http://marlibells.com/llc/wordpress-slides</a></p>
+        <p>A copy will always be at <a href="http://wesbos.com/llc/slides">http://wesbos.com/llc/slides</a> (this copy will always be updated).</p>
       </article>
 
       <article>
