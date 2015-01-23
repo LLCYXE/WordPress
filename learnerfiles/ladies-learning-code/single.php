@@ -7,7 +7,7 @@
         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           
           <?php /* START: PUT POST THUMBNAIL HERE */ ?>
-            <?php the_post_thumbnail('wide'); ?>
+
           <?php /* STOP: PUT POST THUMBNAIL HERE */ ?>
           
           <h1 class="entry-title"><?php the_title(); ?></h1>

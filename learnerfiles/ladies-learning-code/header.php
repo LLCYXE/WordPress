@@ -41,7 +41,6 @@
         <?php bloginfo( 'name' ); ?>
       </a>
     </h1>
-    <h3><?php bloginfo('description'); ?></h3>
 
   </div>
   <!-- HERO ENDS HERE -->
